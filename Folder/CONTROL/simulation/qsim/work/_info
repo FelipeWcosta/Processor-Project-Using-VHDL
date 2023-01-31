@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\costa\Desktop\Projeto_lab-micro\CONTROLE\simulation\qsim
+vunidade_de_controle
+Z1 !s100 FUeRSj=9m1a5Ce@D<oXK62
+Z2 IDBbzOh=V2m;PMM]aV==A[3
+Z3 VUlY1O`6^BV7EGFmk]e`ne2
+Z4 dC:\Users\costa\Desktop\Projeto_lab-micro\CONTROLE\simulation\qsim
+Z5 w1649027699
+Z6 8unidade_de_controle.vo
+Z7 Funidade_de_controle.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|unidade_de_controle.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1649027701.302000
+Z12 !s107 unidade_de_controle.vo|
+!s101 -O0
+vunidade_de_controle_vlg_check_tst
+!i10b 1
+Z13 !s100 P_hR@MT35VOB_CUZYKd722
+Z14 IZ[k@5faG5S;_BSjIV?^>:1
+Z15 VHi1b_OM`eS]kX13W1:_A42
+R4
+Z16 w1649027698
+Z17 8unidade_de_controle.vt
+Z18 Funidade_de_controle.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1649027701.505000
+Z20 !s107 unidade_de_controle.vt|
+Z21 !s90 -work|work|unidade_de_controle.vt|
+!s101 -O0
+R10
+vunidade_de_controle_vlg_sample_tst
+!i10b 1
+Z22 !s100 LHm4Yo]8nALdJ6?mN?FlF3
+Z23 IbO@b0Di28=[3SOONooIDM1
+Z24 V:I=Z]QhHi4R3cKM<<ZRn63
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vunidade_de_controle_vlg_vec_tst
+!i10b 1
+!s100 ^`jH@YNeX23]L6I;U[Se>0
+I0<^GBIdYUERd=Wz`zYAjW1
+Z25 V:TNJCCc[4PzlQeEME4jIk3
+R4
+R16
+R17
+R18
+Z26 L0 1321
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

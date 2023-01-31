@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\costa\Desktop\Projeto_lab-micro\DATA_I\simulation\qsim
+vdata_i
+Z1 I:Z4jL^Db9G1TE1TQ5]1jf3
+Z2 VVcncIlXkLd[FHOFdRoJFA3
+Z3 dC:\Users\costa\Desktop\Projeto_lab-micro\DATA_I\simulation\qsim
+Z4 w1648993748
+Z5 8data_i.vo
+Z6 Fdata_i.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 n^Rf7An;Di]gel=<U[86E3
+!s85 0
+Z10 !s108 1648993756.201000
+Z11 !s107 data_i.vo|
+Z12 !s90 -work|work|data_i.vo|
+!s101 -O0
+vdata_i_vlg_check_tst
+!i10b 1
+!s100 7=_J3CJSK9iz>l:IH`Rnh2
+I5KXZPGFUh>PcEfKk@`X2R0
+V`gYo`0?Si=8MYhgf_Z9>K2
+R3
+Z13 w1648993746
+Z14 8data_i.vt
+Z15 Fdata_i.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1648993756.491000
+Z17 !s107 data_i.vt|
+Z18 !s90 -work|work|data_i.vt|
+!s101 -O0
+R8
+vdata_i_vlg_sample_tst
+!i10b 1
+!s100 WL5C;SlzcNkdLl[G[KINY0
+IF4KheeZj7H60cDZXDeTDz2
+VOc^_Rz>e;kBiV=cgIT3oN0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vdata_i_vlg_vec_tst
+!i10b 1
+!s100 [OZzLf[7kJYH1lflA<17=0
+ISjgaZj>LQaBkGTF_NPlQ:0
+VAlIG:WJH<IXm9ngK5:REf3
+R3
+R13
+R14
+R15
+L0 423
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

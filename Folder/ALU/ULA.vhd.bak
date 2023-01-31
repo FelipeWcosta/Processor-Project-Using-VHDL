@@ -1,0 +1,35 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+entity ULA is port(
+	O : out std_logic_vector(15 downto 0);
+	sel : in std_logic_vector(1 downto 0);
+	e : out std_logic);
+end ULA;
+architecture Behavior of ULA is
+	signal a : std_logic_vector(15 downto 0) := "0000000000000000";
+	signal b : std_logic_vector(15 downto 0) := "0000000000000001";
+	begin
+	process(sel)
+		begin
+		case sel is
+			when "00" =>
+				O <= A + B;
+				e <= 'Z';
+			when "01" =>
+				O <= A - B;
+				e <= 'Z';
+			When "10" =>
+				if A = "0000000000000000" then
+					e <= '1';
+					O <= "ZZZZZZZZZZZZZZZZ";
+				else
+					e <= '0';
+					O <= "ZZZZZZZZZZZZZZZZ";
+				end if;
+			when others =>
+				O <= "ZZZZZZZZZZZZZZZZ";
+				e <= 'Z';
+		end case;
+	end process;
+end Behavior;

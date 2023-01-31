@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\costa\Desktop\Projeto_lab-micro\ALU\simulation\qsim
+vULA
+Z1 !s100 O7[b_EOlFL574KTiKgD^m2
+Z2 ICB;NfLD48K908JPULUHdW2
+Z3 V>U`oziG6g3m9IEC=AbKTT3
+Z4 dC:\Users\costa\Desktop\Projeto_lab-micro\ALU\simulation\qsim
+Z5 w1648929734
+Z6 8ULA.vo
+Z7 FULA.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ULA.vo|
+Z10 o-work work -O0
+Z11 n@u@l@a
+!i10b 1
+!s85 0
+Z12 !s108 1648929735.748000
+Z13 !s107 ULA.vo|
+!s101 -O0
+vULA_vlg_check_tst
+!i10b 1
+Z14 !s100 D?M9W4@m@7M^gWoofkgQB1
+Z15 Io0UX6n9BPKRJO1^zP5d302
+Z16 V;?Y1:XjU;P;=Emh3_fbTU0
+R4
+Z17 w1648929732
+Z18 8ULA.vt
+Z19 FULA.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1648929735.938000
+Z21 !s107 ULA.vt|
+Z22 !s90 -work|work|ULA.vt|
+!s101 -O0
+R10
+Z23 n@u@l@a_vlg_check_tst
+vULA_vlg_sample_tst
+!i10b 1
+Z24 !s100 TaQ_ceKT0kVza:WDGlmYN0
+Z25 IZDBJ_7c;V[[P[]:GmOaQ:3
+Z26 Vec;RP79A<d^PzSE7T7[6W0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@u@l@a_vlg_sample_tst
+vULA_vlg_vec_tst
+!i10b 1
+!s100 7]AdM[8PV:ahU2VB0P@zC1
+IRIizJ4DY3gjU2bU5T1EnF0
+Z28 V@H?nKIIOPXSf=Pjh4d^VA0
+R4
+R17
+R18
+R19
+Z29 L0 452
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@u@l@a_vlg_vec_tst

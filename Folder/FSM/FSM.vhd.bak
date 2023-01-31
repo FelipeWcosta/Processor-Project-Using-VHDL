@@ -1,0 +1,139 @@
+-- Codificação das saídas
+--0000 => carregar
+--0001 => armazenar
+--0010 => somar
+--0011 => carregar_constante
+--0100 => subtrair
+--0101 => saltar_se_zero
+--0110 => saltar
+--0111
+--1000
+--1001
+--1010
+--1011
+--1100
+--1101 => decodificacao
+--1110 => busca
+--1111 => inicio
+library ieee;
+use ieee.std_logic_1164.all;
+entity FSM is port(
+	clk_1 : in std_logic;
+	PC_clr : in std_logic;
+	--teste_zero : in std_logic;
+	OP_code: in std_logic_vector(3 downto 0);
+	saida : out std_logic_vector(3 downto 0)
+);
+end FSM;
+architecture behavior of FSM is
+	component divisor port(
+		reset : in std_logic;
+		clk : in	 std_logic;
+		clock : out	std_logic);
+	end component divisor;
+	type e is (inicio, carregar, armazenar, somar, carregar_constante, subtrair, saltar_se_zero, saltar, busca, decodificacao);
+	signal estado : e;
+	signal teste_zero : std_logic;
+	signal clk : std_logic;
+	begin 
+		div : divisor port map(
+				reset => PC_clr,
+				clock => clk,
+				clk => clk_1
+			);
+	process(clk, PC_clr)
+		begin
+		if (PC_clr = '0') then
+			estado <= inicio;
+		elsif (clk'event and clk = '1') then
+			case estado is 
+				when inicio => 
+					estado <= busca;
+				when busca =>
+					estado <= decodificacao;
+				when decodificacao =>
+					if (OP_code = "0000") then
+						estado <= carregar;
+					elsif (OP_code = "0001") then
+						estado <= armazenar;
+					elsif (OP_code = "0010") then
+						estado <= somar;
+					elsif (OP_code = "0011") then
+						estado <= carregar_constante;
+					elsif (OP_code = "0100") then
+						estado <= subtrair;
+					elsif (OP_code = "0101") then
+						estado <= saltar_se_zero;
+					else
+						estado <= busca;
+					end if;
+				when carregar =>
+					estado <= busca;
+				when armazenar =>
+					estado <= busca;
+				when somar =>
+					estado <= busca;
+				when (carregar_constante) =>
+					estado <= busca;
+				when subtrair =>
+					estado <= busca;
+				when saltar_se_zero =>
+					if (teste_zero = '0') then
+						estado <= busca;
+					else
+						estado <= saltar;
+					end if;
+				when saltar =>
+					estado <= busca;
+				end case;
+			end if;
+		end process;
+		with estado select
+		saida <= "0000" when carregar,
+					"0001" when armazenar,
+					"0010" when somar,
+					"0011" when carregar_constante,
+					"0100" when subtrair,
+					"0101" when saltar_se_zero,
+					"0110" when saltar,
+					"1101" when decodificacao,
+					"1110" when busca,
+					"1111" when inicio;
+end behavior;
+
+-- Divisor de frequencia
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_misc.all;
+use ieee.numeric_std.all;
+
+entity divisor is
+port ( 
+		reset : in std_logic;
+		clk : in	 std_logic;
+		clock : out	std_logic
+		);
+end divisor;
+
+architecture arch of divisor is
+signal sig_clk : std_logic;
+signal sig_prescale: std_logic_vector(24 downto 0) := (others => '0');
+begin
+	process(reset,clk)
+	begin
+		if reset = '0' then
+			sig_clk <= '0';
+			sig_prescale <= (others => '0');
+		elsif clk'event and clk = '1' then
+			if sig_prescale = "1011111010111100001000000" then -- prescale = 50 MHz/1 Hz/2 = (25x10^6) em binário
+				sig_prescale <= (others => '0');
+				sig_clk <= not sig_clk;
+			else
+				sig_prescale <= sig_prescale + 1;
+			end if;
+		end if;
+	end process;
+	clock <= sig_clk;
+end arch;	

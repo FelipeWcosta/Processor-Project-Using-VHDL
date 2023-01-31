@@ -1,0 +1,70 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do processador_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/UFERSA/Desktop/PROCESSADOR/PROCESSADOR/PROCESSADOR/processador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processador
+# -- Compiling architecture behavior_processador of processador
+# -- Compiling entity data_i
+# -- Compiling architecture behavior_data_i of data_i
+# -- Compiling entity data_d
+# -- Compiling architecture behavior_data_d of data_d
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity unidade_de_controle
+# -- Compiling architecture behavior_uc of unidade_de_controle
+# -- Compiling entity sum
+# -- Compiling architecture behavior_sum of sum
+# -- Compiling entity ir
+# -- Compiling architecture behavior_ir of ir
+# -- Compiling entity PC
+# -- Compiling architecture behavior_pc of PC
+# -- Compiling entity FSM
+# -- Compiling architecture behavior of FSM
+# -- Compiling entity bloco_operacional
+# -- Compiling architecture behavior_bloco_operacional of bloco_operacional
+# -- Compiling entity mux
+# -- Compiling architecture behavior_mux of mux
+# -- Compiling entity data_op
+# -- Compiling architecture behavior_data_op of data_op
+# -- Compiling entity ULA
+# -- Compiling architecture Behavior of ULA
+# -- Compiling entity RF_Rp
+# -- Compiling architecture behavior_RF_Rp of RF_Rp
+# 
+vsim -voptargs=+acc work.processador
+# vsim -voptargs=+acc work.processador 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processador(behavior_processador)
+# Loading work.data_i(behavior_data_i)
+# Loading work.data_d(behavior_data_d)
+# Loading ieee.std_logic_signed(body)
+# Loading work.unidade_de_controle(behavior_uc)
+# Loading work.sum(behavior_sum)
+# Loading work.ir(behavior_ir)
+# Loading work.pc(behavior_pc)
+# Loading work.fsm(behavior)
+# Loading work.bloco_operacional(behavior_bloco_operacional)
+# Loading work.mux(behavior_mux)
+# Loading work.data_op(behavior_data_op)
+# Loading work.ula(behavior)
+# Loading work.rf_rp(behavior_rf_rp)

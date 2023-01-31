@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+entity mux is port(
+	m2, m1, m0 : in std_logic_vector(15 downto 0);
+	mo : out std_logic_vector(15 downto 0);
+	ms0, ms1 : in std_logic
+);
+end mux;
+architecture behavior_mux of mux is
+begin
+	if (ms1 = '0' and ms0 = '0') then
+		mo <= m0;
+	elsif (ms1 = '0' and ms0 = '1') then
+		mo <= m1;
+	elsif (ms1 = '1' and ms0 = '0') then
+		mo <= m2;
+	end if;
+end behavior_mux;

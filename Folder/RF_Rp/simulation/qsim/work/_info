@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\costa\Desktop\Projeto_lab-micro\RF_Rp\simulation\qsim
+vRF_Rp
+Z1 IlTjHOUVmKU`=XJA82`3_f3
+Z2 V54zj;UQOYcMEBY4L^edZ]2
+Z3 dC:\Users\costa\Desktop\Projeto_lab-micro\RF_Rp\simulation\qsim
+Z4 w1648931057
+Z5 8RF_Rp.vo
+Z6 FRF_Rp.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@r@f_@rp
+!i10b 1
+Z10 !s100 Z<d7NAdGACUhZR2E2SODD1
+!s85 0
+Z11 !s108 1648931059.864000
+Z12 !s107 RF_Rp.vo|
+Z13 !s90 -work|work|RF_Rp.vo|
+!s101 -O0
+vRF_Rp_vlg_check_tst
+!i10b 1
+!s100 o>XVhiH_;<@fH_l=f9EJE2
+IoF4zL?lGiSljNHB:PC7H>0
+VlZo0_6XXZOCB9h?ecS4ak3
+R3
+Z14 w1648931056
+Z15 8RF_Rp.vt
+Z16 FRF_Rp.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z17 !s108 1648931060.164000
+Z18 !s107 RF_Rp.vt|
+Z19 !s90 -work|work|RF_Rp.vt|
+!s101 -O0
+R8
+n@r@f_@rp_vlg_check_tst
+vRF_Rp_vlg_sample_tst
+!i10b 1
+!s100 Z@dMcbBmhZRD12[7G?IVk1
+Ib;SOKZ6b=?8__Cg@zKBK33
+V0QA8GC13;<ZRWYTlHbhMA3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@r@f_@rp_vlg_sample_tst
+vRF_Rp_vlg_vec_tst
+!i10b 1
+!s100 63hV;T>_AT:<01R486Iek2
+IB>[8e95;dLhzOVF@:SGnE0
+V;nTnKdYi4C?ZC4YE<XXD@1
+R3
+R14
+R15
+R16
+L0 152
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@r@f_@rp_vlg_vec_tst

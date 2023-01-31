@@ -1,0 +1,20 @@
+|RF_Rp
+a[0] => o.IN1
+a[1] => o.IN1
+a[2] => o.IN1
+a[3] => o.IN1
+a[4] => o.IN1
+a[5] => o.IN1
+a[6] => o.IN1
+a[7] => o.IN1
+a[8] => o.IN1
+a[9] => o.IN1
+a[10] => o.IN1
+a[11] => o.IN1
+a[12] => o.IN1
+a[13] => o.IN1
+a[14] => o.IN0
+a[15] => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
