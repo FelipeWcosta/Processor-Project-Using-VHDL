@@ -5,6 +5,6 @@
  * **Observation**: Just use one of two *clock's* directives, `clk event and clk='1'` or `rising_edge(clk)`. Using both simultaneously will cause errors.
  
  ## Referencies
-* [WARDEN, Pete; SITUNAYAKE, Daniel. Tinyml: **Machine learning with tensorflow lite on arduino and ultra-low-power microcontrollers**. O'Reilly Media, 2019.][def]
+* [VAHID, Frank. Sistemas Digitais. Bookman Editora, 2009.][def]
 
-[def]: https://books.google.com.br/books?hl=pt-BR&lr=&id=tn3EDwAAQBAJ&oi=fnd&pg=PP1&dq=Machine+Learning+with+TensorFlow+Lite+on+Arduino+and+Ultra-Low-Power+Microcontrollers&ots=jpslgo19w-&sig=Qf6byoNvC_xl1U46e9iCbex_EXQ#v=onepage&q=Machine%20Learning%20with%20TensorFlow%20Lite%20on%20Arduino%20and%20Ultra-Low-Power%20Microcontrollers&f=false,  "WARDEN, Pete; SITUNAYAKE, Daniel. Tinyml: Machine learning with tensorflow lite on arduino and ultra-low-power microcontrollers. O'Reilly Media, 2019."
+[def]: https://books.google.com.br/books?hl=pt-BR&lr=&id=8xT9sD0kpfUC&oi=fnd&pg=PR7&dq=Sistemas+Digitais:+Projeto,+Otimiza%C3%A7%C3%A3o+e+HDL&ots=KGA6dZ1DY3&sig=XiLvQy0yNPjrvm5z88Pmiwl9N2c#v=onepage&q=Sistemas%20Digitais%3A%20Projeto%2C%20Otimiza%C3%A7%C3%A3o%20e%20HDL&f=false
