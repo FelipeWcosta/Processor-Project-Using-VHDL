@@ -3,7 +3,7 @@
  
  ## Warning
  
- * **Observation**: Just use one of two *clock's* directives, `clk event and clk='1'` or `rising_edge(clk)`. Using both simultaneously will cause errors.
+ * **Observation**: Just use one of two *clock's* directives, `clk'event and clk = '1'` or `rising_edge(clk)`. Using both simultaneously will cause errors.
  * **Binary program**: The binary program using binary numbers opcodes was made to identify three numbers equal to five of an array.
  
  ## References
