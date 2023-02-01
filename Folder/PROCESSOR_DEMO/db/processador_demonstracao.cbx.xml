@@ -1,6 +1,0 @@
-<?xml version="1.0" ?>
-<LOG_ROOT>
-	<PROJECT NAME="processador_demonstracao">
-		<CBX_INST_ENTRY INSTANCE_NAME="|processador_demonstracao|data_d:Memoria_Dados|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_c5k1.tdf"/>
-	</PROJECT>
-</LOG_ROOT>
