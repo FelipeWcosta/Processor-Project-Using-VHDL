@@ -1,7 +1,7 @@
 # Processor Project Using VHDL
  Design of a simple six-instruction processor using VHDL and Quartus II
  
- ## Warning:
+ ## Warning
  
  * **Observation**: Just use one of two *clock's* directives, `clk event and clk='1'` or `rising_edge(clk)`. Using both simultaneously will cause errors.
  * **Binary program**: The binary program using binary numbers opcodes was made to identify three numbers equal to five of an array.
